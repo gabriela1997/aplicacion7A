@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera Aplicacion</title>
+ 
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body onLoad="MM_preloadImages('imagenes/2.png','imagenes/15.png','imagenes/17.png','imagenes/20.png')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>5 DE MAYO DE 1862</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+ <div>
+   <center>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/2.png',1)"><img src="imagenes/1.png" width="471" height="366" id="Image18"></a>
+   </center>
+  </div>
+  </div>
+  
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>ATECEDENTE DEL CONFLICTO</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>PERSONAJES QUE PARTICIPARON</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>FECHA DE LA BATALLA</h2>
+   </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>COMO SE LLEVO LA CONTIENDA </h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>HOY EN DIA QUE SON ESAS FUERTES </h2>
+       </a>
+     </li>
+   </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+      <img src="imagenes/persona_rosa.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Juarez Aguilar Gabriela</h4>
+   </div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>CONFLICTO</h1>
+  </div>
+ <div data-role="content" align="justify">
+  <div>
+     <h2>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe></center>
+     
+<P>La batalla del cinco de mayo tiene su origen desde la Guerra de Reforma: conflicto armado entre liberales y conservadores en el que Benito Juárez defendía el orden constitucional, mientras que Félix Zuloaga buscaba el cambio de ésta, estableciendo las Cinco Leyes; serían los liberales quienes ganarían la presidencia y Benito Juárez decretaría las Leyes de Reforma, en las que se establecía la separación de la Iglesia y el Estado, la nacionalización de los bienes eclesiásticos y se ordenaría el registro civil, el matrimonio civil y la libertad de cultos.</P>
+    <center> <img src="imagenes/3.png" width="669" height="393"></center>
+<p>Tras esta guerra, el gobierno mexicano se encontró sin recursos para cubrir los gastos que se habían originado, por lo que en 1861 el presidente Benito Juárez decidió suspender los pagos a la deuda externa por dos años, para así recuperar la economía del país. Ese mismo año, el 31 de octubre, representantes de España, Francia e Inglaterra se reunieron en Londres para establecer una estrategia y exigir al gobierno mexicano el pago de la deuda que ascendía a 80 millones de dólares, y al no recibir tal, amenazaron con una intervención armada.</p>
+<center><img src="imagenes/4.png" width="640" height="487"></center>
+<p>Fue a principios de 1862 que las tropas de los tres países desembarcaron en el puerto de Veracruz. Juárez logró un acuerdo con los ingleses y españoles: los Acuerdos de la Soledad, por lo que se retiraron; sin embargo, los franceses llamaron a tropas adicionales integradas por belgas, austriacos y soldados de la legión extranjera, las que llegaron a Veracruz en marzo de 1862.</p></h2>
+</div>
+ </div>
+<div data-role="footer" align="center" data-theme="a">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Juárez Aguilar Gabriela</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>PERSONAJES</h1>
+ </div>
+  <div data-role="content" align="justify">
+ <div>
+ <h2><center>
+ <p>1.-Ignacio Zaragoza</p>
+<p><img src="imagenes/5.png" width="534" height="330"></p>
+<p>2.-Charles Ferdinand Latrille, conde de Lorencez</p>
+<p><img src="imagenes/6.png" width="392" height="416"></p>
+<p>3.-Benito Juarez</p>
+<p><img src="imagenes/7.png" width="611" height="288"></p>
+<P>5.-Miguel Negrete</P>
+<p><img src="imagenes/8.png" width="398" height="459"></P>
+<p>6.-Porfirio Dias</p>
+<p><img src="imagenes/9.png" width="340" height="296"></p>
+<p>7.-Antonio Manchado y Álvarez</p> 
+<p><img src="imagenes/10.png" width="315" height="364"></p>
+<p>8.- Felipe Berriozabal</p>
+<p><img src="imagenes/11.png" width="320" height="306"></p>
+<p>9.-J. Lamadrid </p>
+<p><img src="imagenes/12.png" width="279" height="366"></p>
+<p>10.-Maximiliano </p>
+<p><img src="imagenes/13.png" width="407" height="297"></p></center>
+ </h2>
+</div>
+ </div>
+ <div data-role="footer" align="center" data-theme="a">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46"></div><h4>Juárez Aguilar Gabriela</h4>
+  </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>CUANDO INICIO</h1>
+  </div>
+ <div data-role="content" align="justify">
+  <div>
+     <h2>    
+<p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría.</p>
+   <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/15.png',1)"><img src="imagenes/14.png" width="465" height="395" id="Image28"></a></center>
+     <P> Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.</P>
+<P>Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir,1 los franceses se retiraron incondicionalmente del país en el año de1867.</P>
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>4 DE MAYO EN ATLIXCO</h1>
+     <div>
+<P>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.</P>
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/17.png',1)"><img src="imagenes/16.png" width="454" height="347" id="Image23"></a></center>
+<P>Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</P></h2> 
+  </div>
+ </div>
+<div data-role="footer" align="center" data-theme="a">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Juárez Aguilar Gabriela</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>DONDE SE LLEVO ACABO</h1>
+ </div>
+  <div data-role="content" align="justify">
+ <div>
+ <h2><P>El Cinco de Mayo,1 fecha de la conmemoración de la Batalla de Puebla, marca la primera vez que el ejército mexicano pudo derrotar a una potencia extranjera mejor preparada, en este caso los franceses. La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza el 5 de mayo de 1862, entre los ejércitos de México y Francia.</P>
+ <center><img src="imagenes/18.png" width="300" height="231"></center>
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>CUANTO DURO</h1>
+     <div>
+     <p>Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.</p>
+ <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/20.png',1)"><img src="imagenes/19.png" width="593" height="380" id="Image2"></a></center>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>TERMINO LA BATALLA</h1>
+     <div>
+<P>Estados Unidos al término de su guerra civil, presionó a Francia para que se retiraran. El retiro de las fuerzas francesas en 1867 fue obligado. Maximiliano, indefenso, tuvo que recurrir a sus antiguos aliados conservadores, los generales Miramón y Mejía, pero ya era demasiado tarde.</P>
+<center><img src="imagenes/21.png" width="470" height="350"></center>
+<P>Casi un mes después, el 15 de julio, el presidente Benito Juárez regresó a la capital, y los mexicanos finalmente tomaron su país de nuevo. Como el historiador mexicano famoso y filósofo, Justo Sierra, dijo que desde un punto de vista puramente militar, la batalla no es gran cosa. Sin embargo, escribió Sierra, “sus resultados morales y políticos eran inconmensurables. La nación entera estaba encantado con entusiasmo. Sin duda, ningún mexicano, cualquiera que sea su partido, fue abatido por la victoria.”</P></h2>
+
+ </div>
+ </div>
+<div data-role="footer" align="center" data-theme="a">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Juárez Aguilar Gabriela</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>FUERTES</h1>
+  </div>
+ <div data-role="content" align="justify">
+  <div>
+     <h2><!-- Start WOWSlider.com -->
+<iframe src="visor/index.html" style="width:960px;height:270px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+ <p>Los fuertes de Loreto y Guadalupe son unas antiguas edificaciones militares que se encuentran en la ciudad de Puebla. Originalmente se trataba de capillas construidas en lo alto de un cerro Acueyametepec, que fueron reconstituidas a principios del siglo XIX como fortificaciones con finalidades militares. Sirvieron como escenario principal tanto en la batalla como en el sitio de Puebla, durante la Segunda Intervención Francesa en México. Declarados como patrimonio histórico de México, actualmente albergan museos de sitio.</p>
+ <iframe src="http://puebla.travel/es/museos/item/museo-de-sitio-fuerte-de-guadalupe" style="width:960px;height:280px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+ 
+<p>En 1930 los fuertes y la zona aledaña al cerro fueron declarados propiedad de la nación al servicio al pueblo, y en Loreto se construyó un Museo de Guerra. En 1962, con motivo del centenario de la batalla, el museo se amplió y se dotó de servicios al área del parque. Actualmente, en la Zona Histórica de los Fuertes se ubican también un Museo Regional del Instituto Nacional de Antropología e Historia, el Auditorio de la Reforma y la Casa Puebla. Además, a un costado se ubica el Centro de Exposiciones de Puebla y un monumento donde reposan los restos de Ignacio Zaragoza y su esposa Rafaela Padilla.</p>
+</h2> 
+</div>
+ </div>
+<div data-role="footer" align="center" data-theme="a">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46"></div><h4>Juárez Aguilar Gabriela</h4>
+  </div>
+</div>
+</body>
+</html>
